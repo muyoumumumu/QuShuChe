@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--春绿色 -->
+    <!--草绿色 -->
+    <color name="white">#ffffff</color>
+    <!-- <color name="red">#bf242a</color> -->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#17236e</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bbutton_danger">#ffd9534f</color>
+    <color name="bbutton_danger_edge">#ffd43f3a</color>
+    <color name="bbutton_danger_pressed">#ffd2322d</color>
+    <color name="bbutton_danger_disabled">#a5d9534f</color>
+    <color name="bbutton_danger_disabled_edge">#a5d43f3a</color>
+    <color name="bbutton_info">#ff5bc0de</color>
+    <color name="bbutton_info_edge">#ff46b8da</color>
+    <color name="bbutton_info_pressed">#ff39b3d7</color>
+    <color name="bbutton_info_disabled">#a55bc0de</color>
+    <color name="bbutton_info_disabled_edge">#a546b8da</color>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdce7"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="6dp" >
+
+            <TextView
+                android:id="@+id/showresult2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="3dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:textSize="15sp"
+                android:text="总交通流量"
+                android:background="@drawable/list_default_round"
+                android:gravity="center"
+                
+                 />
+
+            <TextView
+                android:id="@+id/showresult3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="3dp"
+                android:background="@drawable/list_default_round"
+                android:drawableLeft="@drawable/l1"
+                />
+            
+            <TextView
+                android:id="@+id/showresult4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/l2"
+                />
+            
+            <TextView
+                android:id="@+id/showresult5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="3dp"
+
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f1"
+                />
+            
+            <TextView
+                android:id="@+id/showresult6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f2"
+                />
+            
+            <TextView
+                android:id="@+id/showresult7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f3"
+                />
+            
+            <TextView
+                android:id="@+id/showresult8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:background="@drawable/list_default_round"
+                android:drawableLeft="@drawable/f4"
+                 />
+        </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart_5_min"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_below="@+id/LinearLayout01"
+        android:layout_above="@+id/btn_very_import" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图形化统计"
+        android:textColor="@color/white"
+        android:background="@drawable/my_button_colors"
+        android:id="@+id/btn_very_import"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>

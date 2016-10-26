@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdce7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        >
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/BarChart1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentBottom="true" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/LineChart1"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="3dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageViewBar"
+            android:src="@drawable/kkk"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dcdce7"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:layout_above="@+id/btn_very_import_time">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="6dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:textColor="#525358"
+                android:textSize="17sp"
+                android:background="@drawable/list_default_round"
+                android:gravity="center"
+                android:text="@string/shiju_1"
+                 />
+            <TextView
+                android:id="@+id/showresult5s"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="3dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f1"
+                />
+            
+            <TextView
+                android:id="@+id/showresult6s"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f3"
+                />
+            
+            <TextView
+                android:id="@+id/showresult7s"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f2"
+                />
+            
+            <TextView
+                android:id="@+id/showresult8s"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/list_default_round"
+                android:drawableLeft="@drawable/f4"
+                 />
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/BarChart_shiju_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_marginBottom="6dp"
+                />
+
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:textSize="17sp"
+                android:background="@drawable/list_default_round"
+                android:gravity="center"
+                android:text="各车道饱和流率"
+                 />
+            <TextView
+                android:id="@+id/showresult5ss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:paddingTop="3dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f1"
+                />
+            
+            <TextView
+                android:id="@+id/showresult6ss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f3"
+                />
+            
+            <TextView
+                android:id="@+id/showresult7ss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/list_default_round" 
+                android:drawableLeft="@drawable/f2"
+                />
+            
+            <TextView
+                android:id="@+id/showresult8ss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/list_default_round"
+                android:drawableLeft="@drawable/f4"
+                 />
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/BarChart_shiju_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                />
+             
+        </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图形化统计"
+        android:textColor="@color/white"
+        android:id="@+id/btn_very_import_time"
+        android:background="@drawable/my_button_colors"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

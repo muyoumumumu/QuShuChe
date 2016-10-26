@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdce7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/white"
+            android:layout_above="@+id/linearLayout" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageViewLine"
+            android:src="@drawable/kkk"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"/>
+    <Switch
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="直行"
+            android:checked="true"
+            android:id="@+id/switch1"
+             />
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"/>
+
+    <Switch
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="左转"
+        android:id="@+id/switch2"
+        />
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"/>
+
+    <Switch
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="右转"
+        android:id="@+id/switch3"
+         />
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"/>
+
+    <Switch
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="掉头"
+        android:id="@+id/switch4"
+        />
+</LinearLayout>
+</RelativeLayout>
+
+

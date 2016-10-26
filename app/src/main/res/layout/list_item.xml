@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <View
+        android:layout_width="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="60dp"
+        android:background="#055e1e"
+        android:id="@+id/left_part" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/tvDate1"
+        />
+
+    <TextView
+        android:id="@+id/tvName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hghghhg"
+        android:textColor="#202020"
+        android:textSize="20sp"
+        android:layout_toStartOf="@+id/tttt2View"
+        android:layout_alignTop="@+id/left_part"
+        android:layout_toEndOf="@+id/left_part"
+        android:layout_toLeftOf="@+id/tttt2View"
+        android:layout_toRightOf="@+id/left_part" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/tvName1"
+        android:background="#e7e7e7"
+        android:layout_alignLeft="@+id/tvmark"
+        android:layout_alignStart="@+id/tvmark"
+        android:layout_toLeftOf="@+id/tttt2View"
+        android:layout_toStartOf="@+id/tttt2View"></View>
+    <TextView
+        android:id="@+id/tvmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hghghhg"
+        android:textColor="#5b5b5b"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="17sp"
+        android:layout_below="@+id/tvName1"
+        android:layout_toStartOf="@+id/tttt2View"
+        android:layout_toEndOf="@+id/left_part"
+        android:layout_toLeftOf="@+id/tttt2View"
+        android:layout_toRightOf="@+id/left_part" />
+
+     <TextView
+        android:id="@+id/tvDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jifdjfpsfdso"
+        android:textColor="#7c7c7c"
+        android:textSize="15sp"
+        android:layout_below="@+id/tvmark"
+        android:layout_toStartOf="@+id/tttt2View"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/tttt2View" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignTop="@+id/left_part"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/yyyy"
+        android:id="@+id/tttt2View"/>
+
+</RelativeLayout>

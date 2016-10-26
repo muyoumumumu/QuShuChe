@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.muyoumumumu.QuShuChe.ui.acitivity.AboutActivity">
+
+<!--    &lt;!&ndash;android:theme="@style/AppTheme.AppBarOverlay"&ndash;&gt;
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+&lt;!&ndash;必须设定theme&ndash;&gt;
+        &lt;!&ndash;app:popupTheme="@style/AppTheme.PopupOverlay"&ndash;&gt;
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tool_bar" />
+
+    </android.support.design.widget.AppBarLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/about_container"
+        android:layout_marginTop="?actionBarSize">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/muyoumumumu"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:id="@+id/tv_app_name"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:layout_below="@+id/tv_app_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/muyoumumumu"
+            android:layout_marginTop="15dp"
+            android:id="@+id/my_name"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_version" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wuhao704_gmail_com"
+            android:layout_marginTop="15dp"
+            android:id="@+id/my_context"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/my_name" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

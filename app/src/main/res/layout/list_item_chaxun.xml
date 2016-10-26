@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <View
+        android:layout_width="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="10dp"
+        android:background="#05065e"
+        android:id="@+id/left_part" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textSize="15sp"
+        android:id="@+id/num_id"
+        android:layout_alignTop="@+id/left_part"
+        android:layout_toRightOf="@+id/left_part"/>
+
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hghghhg"
+        android:textColor="#202020"
+        android:textSize="17sp"
+        android:layout_marginLeft="7dp"
+        android:layout_alignTop="@+id/left_part"
+        android:layout_toRightOf="@+id/num_id"
+         />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="erererererer"
+        android:textColor="#5b5b5b"
+        android:textSize="17sp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/turn"
+        android:layout_toRightOf="@+id/turn"
+        />
+
+     <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jifdjfpsfdso"
+        android:textColor="#7c7c7c"
+        android:textSize="15sp"
+         android:layout_marginLeft="10dp"
+         android:layout_alignBottom="@+id/type"
+         android:layout_toRightOf="@+id/type"
+         android:layout_toEndOf="@+id/type" />
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#d9d9d9"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/turn"/>-->
+
+</RelativeLayout>

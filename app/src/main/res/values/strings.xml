@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">去数车</string>
+    <string name="tongjiliuliang">车流量统计</string>
+    <string name="tongjishijian">时距统计</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="line">line</string>
+    <string name="line1">—重庆交通大学交运信控12级田飞/吴浩</string>
+    <string name="xiangmumin">项目名:</string>
+    <string name="shiju_1">各车道平均车头时距</string>
+    <string name="about">关于</string>
+    <string name="version">1.2.0</string>
+    <string name="muyoumumumu">muyoumumumu</string>
+    <string name="wuhao704_gmail_com">联系邮箱：wuhao704@gmail.com</string>
+</resources>
