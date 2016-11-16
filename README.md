@@ -19,13 +19,9 @@
 ## 开源项目
 名称 | 介绍
 --------- | --------
-[Volley](https://android.googlesource.com/platform/frameworks/volley/) | Volley is an HTTP library that makes networking for Android apps easier and most importantly, faster. Volley is available through the open AOSP repository.
-[multiline-collapsingtoolbar](https://github.com/opacapp/multiline-collapsingtoolbar) | multiline-collapsingtoolbar is a replacement for CollapsingToolbarLayout from the Android Design Support Library which can deal with multiline titles (with a customizable maximum number of lines) in the expanded state. When collapsing the toolbar, the lower lines of the title fade away to leave only the top line visible.
-[appbarlayout-spring-behavior](https://github.com/ToDou/appbarlayout-spring-behavior) | One library contains one behavior help appbarlayout to scroll spring. In the sample have add the realtimeblur test and add tablayout with TabScrimHelper(animate color with CollapsingToolbarLayout).Because of some methods in the Behavior of AppBarLayout not open to the out package. So I set the package name same to the support design.And add one fling_fix_behavior to fix the appbarlayout to scroll down fling. Also add one NestedFixFlingScrollView to fix NestedScrollView fling bug.
+[MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.
 [Android Support Libraries](https://developer.android.com/topic/libraries/support-library/index.html) | The Android Support Library offers a number of features that are not built into the framework. These libraries offer backward-compatible versions of new features, provide useful UI elements that are not included in the framework, and provide a range of utilities that apps can draw on.
-[Gson](https://github.com/google/gson) | A Java serialization/deserialization library that can convert Java Objects into JSON and back.
-[MaterialDateTimePicker](https://github.com/wdullaer/MaterialDateTimePicker) | Pick a date or time on Android in style
-[Glide](https://github.com/bumptech/glide) | An image loading and caching library for Android focused on smooth scrolling
+
 
 ## 联系
 muyoumumumu#gmail.com (替换#为@)
