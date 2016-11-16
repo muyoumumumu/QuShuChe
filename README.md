@@ -11,7 +11,6 @@
 * 相关采集信息的存储以及调用处理。   
 * 数据信息图形可视化。
 
-架构采用[Google Android Architecture Blueprints [beta]](https://github.com/googlesamples/android-architecture)
 
 ##截屏
 。。。待定
