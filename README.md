@@ -13,7 +13,7 @@
 
 
 ##截屏
-。。。待定
+![](https://github.com/muyoumumumu/QuShuChe/blob/master/screenshots/main.png)
 
 ## 开源项目
 名称 | 介绍
