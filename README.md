@@ -15,7 +15,7 @@
 ##截屏
 ![scr](https://github.com/muyoumumumu/QuShuChe/blob/master/screenshots/main.jpg)
 
-## 开源项目
+## 感谢
 名称 | 介绍
 --------- | --------
 [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.
