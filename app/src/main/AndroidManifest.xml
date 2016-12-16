@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.amumu.QuShuChe.very_important">
+    package="com.muyoumumumu.QuShuChe">
 
     <!-- To access Google+ APIs: -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -67,11 +67,8 @@
             android:name="com.muyoumumumu.QuShuChe.ui.acitivity.Tongji_Shiju"
             android:theme="@style/AppTheme"
             android:label="@string/tongjishijian" >
-        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+        </activity>
+
 
     </application>
 

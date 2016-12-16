@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.amumu.QuShuChe.very_important.R;
+import com.muyoumumumu.QuShuChe.R;
 import com.muyoumumumu.QuShuChe.model.bean.Mnn;
 import com.muyoumumumu.QuShuChe.ui.fragments.chart_flow.LineFragment;
 import com.muyoumumumu.QuShuChe.ui.fragments.chart_flow.LineFragment_2;

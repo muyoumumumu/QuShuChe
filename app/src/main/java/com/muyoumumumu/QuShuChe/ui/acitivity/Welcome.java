@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
-import com.amumu.QuShuChe.very_important.R;
+import com.muyoumumumu.QuShuChe.R;
 
 
 public class Welcome extends Activity {

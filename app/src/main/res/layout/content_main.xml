@@ -13,11 +13,14 @@
     tools:showIn="@layout/main">
 
 
-     <com.baoyz.swipemenulistview.SwipeMenuListView
+     <com.daimajia.swipe.SwipeLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:scrollbars="none"
-        android:id="@+id/mylistview"/>
+        android:id="@+id/mylistview">
+
+
+     </com.daimajia.swipe.SwipeLayout>
 
 
 </RelativeLayout>

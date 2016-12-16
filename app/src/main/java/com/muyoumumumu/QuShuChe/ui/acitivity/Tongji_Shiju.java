@@ -9,13 +9,13 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.amumu.QuShuChe.very_important.R;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.HorizontalBarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
 import com.github.mikephil.charting.utils.ColorTemplate;
+import com.muyoumumumu.QuShuChe.R;
 import com.muyoumumumu.QuShuChe.model.bean.Mnn;
 
 import java.util.ArrayList;

@@ -14,13 +14,13 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.amumu.QuShuChe.very_important.R;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
+import com.muyoumumumu.QuShuChe.R;
 import com.muyoumumumu.QuShuChe.model.bean.Mnn;
 import com.muyoumumumu.QuShuChe.widget.CustomDialog;
 

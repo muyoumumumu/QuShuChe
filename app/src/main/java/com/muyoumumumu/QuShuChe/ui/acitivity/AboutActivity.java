@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import com.amumu.QuShuChe.very_important.R;
+import com.muyoumumumu.QuShuChe.R;
 
 public class AboutActivity extends AppCompatActivity {
 

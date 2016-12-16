@@ -14,7 +14,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.amumu.QuShuChe.very_important.R;
 import com.muyoumumumu.QuShuChe.db.Traffic_db;
 import com.muyoumumumu.QuShuChe.model.bean.Mnn;
 import com.muyoumumumu.QuShuChe.ui.acitivity.Main_activity;

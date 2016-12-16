@@ -29,11 +29,9 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
-import com.amumu.QuShuChe.very_important.R;
-import com.baoyz.swipemenulistview.SwipeMenu;
-import com.baoyz.swipemenulistview.SwipeMenuCreator;
-import com.baoyz.swipemenulistview.SwipeMenuItem;
-import com.baoyz.swipemenulistview.SwipeMenuListView;
+
+import com.daimajia.swipe.SwipeLayout;
+import com.muyoumumumu.QuShuChe.R;
 import com.muyoumumumu.QuShuChe.db.Traffic_db;
 import com.muyoumumumu.QuShuChe.model.bean.Mnn;
 import com.muyoumumumu.QuShuChe.widget.CustomDialog;
@@ -61,7 +59,7 @@ public class Main_activity extends AppCompatActivity implements OnItemClickListe
 
     private File f = new File("/sdcard/a_tdcs/A_tdcs.db");// 创建文件
 
-    private SwipeMenuListView myListView;
+    private SwipeLayout myListView;
 
     private FloatingActionButton fab;
 
@@ -113,7 +111,7 @@ public class Main_activity extends AppCompatActivity implements OnItemClickListe
         dao = new SQLiteDatabaseDao();
         //==================================================================
         //设置右滑菜单
-        myListView = (SwipeMenuListView) findViewById(R.id.mylistview);
+        myListView = (SwipeLayout) findViewById(R.id.mylistview);
 
         SwipeMenuCreator creator = new SwipeMenuCreator() {
 

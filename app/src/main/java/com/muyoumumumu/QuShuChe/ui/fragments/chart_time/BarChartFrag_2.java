@@ -16,7 +16,6 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.Toast;
 
-import com.amumu.QuShuChe.very_important.R;
 import com.github.mikephil.charting.animation.Easing;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.LineChart;
@@ -38,6 +37,7 @@ import com.github.mikephil.charting.listener.OnChartGestureListener;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.ColorTemplate;
 import com.github.mikephil.charting.utils.Utils;
+import com.muyoumumumu.QuShuChe.R;
 import com.muyoumumumu.QuShuChe.ui.acitivity.ChartActivity_2;
 import com.muyoumumumu.QuShuChe.widget.MyMarkerView;
 import com.muyoumumumu.QuShuChe.widget.MyValueFormatter_0;

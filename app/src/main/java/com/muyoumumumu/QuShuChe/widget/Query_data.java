@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
-import com.amumu.QuShuChe.very_important.R;
+import com.muyoumumumu.QuShuChe.R;
 import com.muyoumumumu.QuShuChe.model.bean.Mnn;
 import com.muyoumumumu.QuShuChe.ui.acitivity.Main_activity;
 
