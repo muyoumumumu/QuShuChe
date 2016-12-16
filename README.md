@@ -19,7 +19,6 @@
 名称 | 介绍
 --------- | --------
 [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.
-[SwipeMenuListView](https://github.com/baoyongzhang/SwipeMenuListView) | A swipe menu for ListView.
 [Android Support Libraries](https://developer.android.com/topic/libraries/support-library/index.html) | The Android Support Library offers a number of features that are not built into the framework. These libraries offer backward-compatible versions of new features, provide useful UI elements that are not included in the framework, and provide a range of utilities that apps can draw on.
 
 
